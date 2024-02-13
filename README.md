@@ -60,3 +60,53 @@ let diaSemana = fecha.getDay();
 console.log(diaSemana)
 ```
 
+Teniendo en cuenta lo anterior también es posible asignar un dato especifico; esto haciendo uso de los setters; los comandos serian los siguientes:
+
+* **setFullYear ->**Asignar un año reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setFullYear()
+```
+
+* **setMonth ->** Asignar un mes reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setMonth()
+```
+
+- **setDate ->** Asignar un día del mes reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setDate()
+```
+
+- **setHours ->** Asignar una hora reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setHours()
+```
+
+- **setMinutes ->** Asignar un minuto reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setMinutes()
+```
+
+- **setSeconds ->** Asignar un segundo reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setSeconds()
+```
+
+- **setMillisecon ->** Asignar un milisegundo reemplazando el obtenido previamente.
+
+```javascript
+const fecha = new Date();
+Date.setMillisecon()
+```
